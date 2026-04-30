@@ -1,0 +1,3 @@
+CI001_CANARY_PAYLOAD
+
+This file exists only to trigger the pull_request workflow. The workflow generates its own large synthetic diff and fake Codex binary. It reports only whether the dummy OPENAI_API_KEY secret is present in the Codex process environment.
